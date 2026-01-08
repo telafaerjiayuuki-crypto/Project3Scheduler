@@ -1,0 +1,13 @@
+mean=52.24, var=841.252
+mean=47.314, var=818.231
+mean=49.898, var=859.066
+mean=50.856, var=874.115
+=== Random Statistics ===
+Time: 2026-01-08 00:08:42
+Count: 500
+Mean: 50.1800
+Variance: 871.7956
+Standard Deviation: 29.5262
+Min: 0
+Max: 100
+=========================

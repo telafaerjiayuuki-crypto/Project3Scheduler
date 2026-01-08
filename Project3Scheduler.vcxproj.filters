@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{c803e0de-c88b-4afb-bc5f-cf1ba917162a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Tasks">
+      <UniqueIdentifier>{2c0cb6ba-4f57-4b4b-b060-d826761e988e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UI">
+      <UniqueIdentifier>{839e71aa-5496-4420-b52c-af3172d1a728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{de38cc6d-971c-4fa2-bfc0-2e472a7d9af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backup">
+      <UniqueIdentifier>{580d415a-f0ad-431c-905c-fa9da811dfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logs">
+      <UniqueIdentifier>{199ad1bd-04d5-488f-b72b-8d6ffc62f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{77c71fa1-3ee3-4d96-8a22-1145830aeb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{95b82928-9e06-4b3e-ae35-80eff16db970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks">
+      <UniqueIdentifier>{6bfb2b22-cb1e-460a-b6a6-757bffdab336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{a1b77ef5-232d-45b2-be58-6d2611d03f2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CancellationToken.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ITask.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ITaskObserver.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWriter.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskEvent.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpHandle.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Tasks.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskFactory.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduledTask.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueHandle.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WinUiObserver.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipUtil.h">
+      <Filter>include\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTask.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleTestTask.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTaskController.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CancellationToken.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWriter.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskScheduler.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WinHttpHandle.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskFactory.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Tasks.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduledTask.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="WinUiObserver.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipUtil.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
